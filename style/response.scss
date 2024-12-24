@@ -1,0 +1,1303 @@
+@media all and (max-width : 1200px) {
+    #app {
+        width: 90%;
+    }
+
+    #project {
+        .inner {
+            .projectBoard {
+                .scrollContainer {
+                    .projectList {
+                        > li {
+                            width: calc(50% - 20px);
+                            height: 350px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #adminMyInfo {
+        .inner {
+            .container {
+                .myInfoBox {
+                    ul {
+                        li {
+                            h3 {
+                                font-size: 1.4rem;
+                            }
+                             
+                            p {
+                                width: 240px;
+                                font-size: 1.6rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #contact {
+        padding: 0 10px;
+    }
+
+}
+
+@media all and (max-width : 1050px) {
+    #adminContact .tableContainer table tr th.sender, #adminContact .tableContainer table tr td.sender {
+        width: 52px;
+    }
+
+    #adminContact .tableContainer table tr th.phone, #adminContact .tableContainer table tr td.phone {
+        width: 100px;
+    }
+
+    #adminContact .tableContainer table tr th.email, #adminContact .tableContainer table tr td.email {
+        width: 170px;
+    }
+
+    #adminContact .tableContainer table tr th.contents, #adminContact .tableContainer table tr td.contents {
+        width: calc(100% - 452px);
+    }
+
+    #adminContact .tableContainer table tr th.date, #adminContact .tableContainer table tr td.date {
+        width: 70px;
+    }
+
+    #adminContact .tableContainer table tr th.isRead, #adminContact .tableContainer table tr td.isRead {
+        width: 60px;
+    }
+
+    #contact {
+        justify-content: center;
+
+        .txtBox {
+            top: 200px;
+            right: 100px;
+            left: unset;
+            transform:rotate(-35deg);
+
+            p {
+                // width: 260px;
+                font-size: 1.6rem;
+            }
+        }
+        
+        .contact {
+            padding-top: 30px;
+            h3 {
+                position: static;
+            }
+        }
+    }
+}
+
+@media all and (max-width : 1000px) {
+
+    #adminMyInfo {
+        .inner {
+            article {
+                h3 {
+                    font-size: 1.6rem;
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width : 950px) {
+    #projectDetailPage {
+        overflow-y: auto;
+        > .inner {
+            padding: 30px 30px 0;
+            .banner {
+                width: 100%;
+                margin-top: 20px;
+            }
+
+            .contents {
+                width: 100%;
+                // overflow: hidden;
+                .scrollContainer {
+                    padding-left: 0;
+                    #contentsArea {
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width : 850px) {
+    #index {
+        .scrollContents {
+            h3 {
+                font-size: 5.0rem;
+            }
+        }
+
+        .contact {
+            display: none;
+        }
+    }
+
+    #about {
+        overflow-y: scroll;
+        overflow-x: hidden;
+        .inner {
+            flex-direction: column;
+            width: calc(100% - 50px);
+            margin: 0 auto;
+            padding: 70px 0;
+
+            article {
+                width: 100%;
+            }
+
+            .myInfoBox {
+                order: 2;
+
+                .resume {
+                    margin: 40px 0;
+                }
+
+                .hashTagBox {
+                    max-width: 500px;
+                }
+            }
+
+            .profileImg {
+                order: 1;
+                width: 100%;
+                margin-bottom: 30px;
+                text-align: center;
+                .imgBox {
+                    img {
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+    }
+
+    #adminHeader {
+        .inner {
+            font-size: 1.6rem;
+        }
+    }
+
+    #adminMyInfo {
+        .inner {
+            article {
+
+                .btnAdd {
+                    padding: 2.5px 5px;
+                    font-size: 1.4rem;
+                }
+
+                &.myInfoBox {
+                    .infoList {
+                        li {
+                            h3 {
+                                width: 60px;
+                                font-size: 1.2rem;
+                            }
+                            p {
+                                font-size: 1.4rem;
+                            }
+                        }
+                    }
+
+                    > .btnList {
+                        li {
+                            button {
+                                padding: 2.5px 5px;
+                                font-size: 1.4rem;
+                            }
+                        }
+                    }
+                }
+
+                &.resumeBox {
+                    .resumeList {
+                        > li {
+                            dl {
+                                dt {
+                                    font-size: 1.4rem;
+                                }
+
+                                dd {
+                                    font-size: 1.2rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .uploadWrapper {
+        .inner {
+            .inputList {
+                > li {
+                    .inputBox {
+                        width: 100%;
+                        input {
+                            width: calc(100% - 80px);
+                        }
+                        .btnAdd {
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #projectDetailPage {
+        > .inner {
+            height: calc(100% - 50px);
+
+            .btnBack {
+                top: 0;
+                left: 10px;
+            }
+            .scrollContainer {
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                .banner {
+                    width: 100%;
+                    margin-top: 0;
+                }
+
+                .contents {
+                    width: 100%;
+                    padding: 0 10px;
+
+                    #contentsArea {
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width : 800px) {
+
+    #adminMyInfo {
+        > .inner {
+            display: block;
+            padding: 20px;
+            overflow-y: scroll;
+            article {
+                width: 100%;
+                margin: 0;
+
+                &:nth-child(n+2) {
+                    margin-top: 15px;
+                }
+
+                .btnAdd {
+                    position: static;
+                    margin-left: 10px;
+                    padding: 5px 10px;
+                }
+
+                &.myInfoBox {
+                    .infoList {
+                        li {
+                            h3 {
+                                width: 93px;
+                                font-size: 1.8rem;
+                            }
+
+                            p {
+                                font-size: 2rem;
+                            }
+                        }
+                    }
+
+                    > .btnList {
+                        position: static;
+                        margin-top: 25px;
+                        li {
+                            button {
+                                padding: 5px 10px;
+                            }
+                        }
+                    }
+                }
+
+                &.resumeBox {
+                    .resumeList {
+                        height: auto;
+                        > li {
+                            dl {
+                                dt {
+                                    font-size: 1.6rem;
+                                }
+
+                                dd {
+                                    font-size: 1.2rem;
+                                }
+                            }
+                        }
+                    }
+
+                    .pagination {
+                        position: static;
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+    }
+
+    #project {
+        .projectBoard {
+            .inner {
+                .scrollContainer {
+                    .projectList {
+                        > li {
+                            width: 100%;
+                            margin: 15px 0 0 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #adminProject {
+        .projectBoard {
+            .inner {
+                .scrollContainer {
+                    .projectList {
+                        flex-direction: column;
+                        flex-wrap: nowrap;
+                        > li {
+                            width: 100%;
+                            margin: 15px 0 0 0;
+
+                            &.empty {
+                                width: auto;
+                                margin: 0;
+                                font-size: 1.4rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #projectDetailPage {
+        .inner {
+            .banner {
+                height: 350px;
+            }
+        }
+    }
+
+    #contact {
+        .txtBox {
+            top: 100px;
+            right: 40px;
+            p {
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+    #adminHeader {
+        .navBox {
+            .navList {
+                li {
+                    > * {
+                        &.utilBtn {
+                            font-size: 2.5rem;
+                        }
+                        
+                    }
+                }
+            }
+        } 
+    }
+    
+}
+
+@media all and (max-width : 700px) {
+
+    #adminContact .tableContainer table {
+        height: 100%;
+    }
+    #adminContact .tableContainer table thead {
+        display: none;
+    }
+
+    #adminContact .tableContainer {
+        height: 100%;
+        // overflow-y: auto;
+        margin-top: 0;
+    }
+
+    #adminContact .tableContainer table tbody {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #adminContact .tableContainer table tbody tr {
+        display: flex;
+        flex-direction: column;
+        width: calc(50% - 20px);
+        height: auto;
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid #000;
+        border-radius: 10px;
+        
+    }
+
+    #adminContact .tableContainer table tbody tr:before {
+        border: none;
+        border: none;
+    }
+
+    #adminContact .tableContainer table tbody tr:nth-child(n+2):before {
+        display: none;
+    }
+    #adminContact .tableContainer table tbody tr td:nth-child(n+2) {
+        margin-top: 15px;
+        border: none;
+    }
+
+    #adminContact .tableContainer table tbody tr td.sender,
+    #adminContact .tableContainer table tbody tr td.phone,
+    #adminContact .tableContainer table tbody tr td.email,
+    #adminContact .tableContainer table tbody tr td.contents,
+    #adminContact .tableContainer table tbody tr td.date,
+    #adminContact .tableContainer table tbody tr td.isRead {
+        position: relative;
+        width: 100%;
+        height: auto;
+        line-height: 1;
+        text-align: left;
+        font-size: 1.2rem;
+
+    }
+
+    #adminContact .tableContainer table tbody tr td.sender {
+        &:before { content: "발신인 : " }
+    }
+
+    #adminContact .tableContainer table tbody tr td.phone {
+        display: none;
+    }
+
+    #adminContact .tableContainer table tbody tr td.email {
+        display: none;
+    }
+
+    #adminContact .tableContainer table tbody tr td.contents {
+        &:before { content: "내용 : " }
+        text-decoration: underline;
+        padding: 0;
+    }
+
+    #adminContact .tableContainer table tbody tr td.date {
+        &:before { content: "발신 날짜 : ";}
+    }
+
+    #adminContact .tableContainer table tbody tr td.isRead {
+        &:before { content: "수신 : ";}
+    }
+
+    #adminContact .tableContainer table.deleteSelect tbody tr {
+        position: relative;
+    }
+    #adminContact .tableContainer table.deleteSelect tbody tr td.delete {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        margin-top: 0;
+        &:before { 
+            content: "삭제";
+            position: absolute;
+            bottom: 13px;
+            right: 35px;
+            line-height: 1;
+        }
+
+        input {
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+        }
+        
+    } 
+
+    #projectDetailPage {
+        > .inner {
+            .scrollContainer {
+
+                .contents {
+                    dl {
+                        dt {
+                            font-size: 2rem;
+                        }
+
+                        dd {
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media all and (max-width : 650px) {
+    #header {
+        .timerBox {
+            font-size: 1.4rem;
+        }
+    }
+
+    .copyRight { font-size: 0.8rem; }
+
+    #adminProject {
+        .inner {
+            
+            .projectBoard {
+                .projectList {
+                    display: block;
+                    > li {
+                        dl {
+                            margin: 10px 0 0 10px;
+                            dt {
+                                font-size: 1.6rem;
+                            }
+
+                            dd {
+                                font-size: 1.2rem;
+                            }
+                        }
+
+                        .swiper-pagination {
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #index {
+        .scrollContents {
+            h3 {
+                font-size: 5.0rem;
+            }
+        }
+    }
+
+    #projectDetailPage {
+        > .inner {
+            .scrollContainer {
+                .banner {
+                    height: 300px;
+                }
+            }
+        }
+    }
+    
+    #adminContact  {
+        
+        .pagination {
+            height: auto;
+            .list {
+                flex-wrap: wrap;
+                li {
+                    margin: 2.5px;
+                }
+            }
+        }
+
+        .detailMesage .inner {
+            width: 350px;
+            height: 350px;
+
+        }
+    }
+
+
+}
+
+@media all and (max-width : 600px) {
+    #clientHeader {
+        .timerBox {
+            font-size: 1.4rem;
+        }
+
+        .logo {
+            button {
+                img {
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+        }
+    }
+
+    #index {
+        .scrollContents {
+            h3 {
+                font-size: 4rem;
+            }
+        }
+    }
+
+    #adminMyInfo {
+        position: relative;
+
+        &:after {
+            content: "스크롤 해주세요";
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
+            writing-mode: vertical-lr;
+            font-size: 1rem;
+            letter-spacing: 2px;
+        }
+        > .inner {
+            padding: 10px 30px 10px 10px; 
+
+            article {
+                padding: 10px;
+
+                > h3 {
+                    margin-bottom: 15px;
+                }
+                
+                &.myInfoBox {
+                    .infoList {
+                        li {
+                            h3 {
+                                font-size: 1.4rem;
+                            }
+
+                            p {
+                                font-size: 1.6rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #adminContact .tableContainer table tbody tr td.date {
+       font-size: 0.9rem;
+    }
+
+    #adminContact .tableContainer table tbody tr td.isRead {
+        font-size: 0.9rem;
+    }
+
+    #adminContact {
+        .head {
+            position: relative;
+            display: block;
+            height: 80px;
+            line-height: 1;
+            h3 {
+                margin: 10px 0;
+                font-size: 1.6rem;
+            }
+            .btnList {
+                li {
+                    button {
+                        padding: 2.5px 5px;
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .uploadWrapper {
+        .inner {
+            width: calc(100% - 40px);
+            // padding: 40px 10px;
+
+            .inputList {
+                > li {
+
+                    .selectList {
+                        > li {
+                            p {
+                                font-size: 1.2rem;
+                            }
+                        }
+                    }
+
+                    .btnBox {
+                        label, button {
+                            font-size: 1.4rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #contact {
+        .txtBox {
+            right: 20px;
+            transform: rotate(0);
+        }
+
+        .contact {
+            .form {
+                .inputList {
+                    li {
+
+                        label {
+                            font-size: 2rem;
+                        }
+                        textarea {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+
+            .btnSubmit {
+                width: 100%;
+            }
+        }
+    }
+
+    #experience {
+        .inner {
+            dl {
+                dt {
+                    font-size: 2rem;
+                    img {
+                        width: 35px;
+                    }
+                }
+
+                dd {
+                    font-size: 1.4rem;
+                    &.ps {
+                        font-size: 1rem;
+                    }
+                }
+            }
+
+            .accountBox {
+                &:before {
+                    font-size: 1.2rem;
+                }
+
+                padding: 5px 15px;
+                font-size: 1.4rem;
+            }
+        }
+    }
+}
+
+@media all and (max-width : 500px) {
+    #toast {
+        .container {
+            .inner {
+                width: calc(100% - 50px);
+
+                .txtBox {
+                    dd {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .btnList {
+                li {
+                    button {
+                        padding: 5px 25px;
+                    }
+                }
+            }
+        }
+    }
+
+    #about {
+        .inner {
+            padding: 40px 0;
+            .profileImg {
+                .imgBox {
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    #adminMyInfo {
+        > .inner {
+            article {
+                overflow-y: auto;
+                overflow-x: hidden;
+                .btnAdd {
+                    position: static;
+                    margin-left: 10px;
+                }
+                &.myInfoBox {
+                    .btnList {
+                        position: static;
+                        margin: 20px 0 20px -10px;
+                    }
+                }
+            }
+            
+        }
+    }
+
+    .projectBoard {
+        .inner {
+            padding: 0 20px;
+        }
+    }
+
+    #projectDetailPage {
+        > .inner {
+            .scrollContainer {
+                dl {
+                    dt {
+                        font-size: 2rem;
+                    }
+
+                    dd {
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+@media all and (max-width : 499px) {
+
+    .copyRight { font-size: 1.8vw; }
+
+    #app {
+        position: absolute;
+        // transform: none;
+        // top: 0;
+        // left: 0;
+    }
+
+    #clientHeader {
+        .timerBox {
+            font-size: 1.2rem;
+        }
+    }
+
+    .navBox {
+
+        .navList {
+            li {
+                &:nth-child(n+2) {
+                    margin-top: 15px;
+                }
+            }
+        }
+
+        &.show {
+            .navList {
+                right: 30px;
+            }
+        }
+    }
+
+    #adminHeader {
+        .inner {
+            width: 100%;
+            margin: 0;
+            padding: 0 20px;
+        }
+
+        .navBox {
+            .navList {
+                > li {
+                    &:nth-child(n+2) {
+                        margin-top: 25px;
+                    }
+                    > * {
+                        font-size: 3rem;
+
+                        &.utilBtn {
+                            font-size: 2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #adminMyInfo {
+        > .inner {
+
+            article {
+                // height: calc(50% - 15px);
+                height: 260px;
+                > h3 {
+                    font-size: 1.4rem;
+                }
+
+                .btnAdd {
+                    padding: 2.5px 10px;
+                    font-size: 1.2rem;
+
+                    &:before {
+                        width: 15px;
+                        height: 15px;
+                    }
+                }
+
+                &.myInfoBox {
+                    .infoList {
+                        li {
+                            &:nth-child(n+2) {
+                                margin-top: 10px;
+                            }
+
+                            p {
+                                font-size: 1.2rem;
+                            }
+                        }
+                    }
+
+                    .btnList {
+                        margin: 10px 0 10px 0;
+                         li {
+                            button {
+                                font-size: 1.2rem;
+                            }
+                         }
+                    }
+                }
+
+                &.resumeBox {
+                    .resumeList {
+                        // height: 160px;
+
+                        > li {
+
+                            &:nth-child(n+2) {
+                                margin-top: 5px;
+                            }
+                            dl {
+                                dt {
+                                    font-size: 1.2rem;
+                                }
+                               
+                                dd {
+                                    font-size: 1rem;
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+
+                &.hashTagBox {
+                    .hashTagList {
+                        max-height: 160px;
+                        li {
+                            padding: 5px 10px;
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+
+                &.profileImg {
+                    .imgBox {
+                        img {
+                            width: 120px;
+                            height: 160px;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+
+    #adminProject {
+        .projectBoard {
+            .head {
+                h3 {
+                    font-size: 1.2rem;
+                }
+
+                .btnAdd {
+                    font-size: 1.2rem;
+                }
+            }
+
+            .scrollContainer {
+                .projectList {
+                    > li {
+                        &.empty {
+                            width: 100%;
+                            font-size: 1.05rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .pagination {
+        > button {
+            img {
+                width: 15px;
+                height: 15px;
+            }
+
+            &.btnNext img,
+            &.btnPrev img {
+                width: 13px;
+            }
+        }
+        .list {
+            li {
+                button {
+                    width: 20px;
+                    height: 20px;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+
+    #index {
+        .scrollContents {
+            h3 {
+                margin: 30px 0 0 20px ;
+            }
+
+            p {
+                margin-left: 20px;
+                font-size: 1rem;
+            }
+        }
+    }
+    .uploadWrapper {
+        .inner {
+            .inputList {
+                > li {
+                    input[type=text] {
+                        &::placeholder {
+                            font-size: 1rem;
+                        }
+                    }
+
+                    .selectList {
+                        > li {
+                            flex-wrap: wrap;
+
+                            select {
+                                width: 45px;
+                                margin: 10px 0;
+                                font-size: 1.4rem;
+                            }
+                        }
+                    }
+
+                    .dropBox {
+                        .dropBoxTxt {
+                            text-align: center;
+                            font-size: 1rem;
+                            word-break: keep-all;
+                        }
+                    }
+
+                    &.profileImg {
+                        .btnBox {
+                            label {
+                                font-size: 1.2rem;
+                            }
+
+                            .btnSubmit {
+                                font-size: 1.2rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #account {
+        width: 90%;
+    }
+
+    #adminContact .detailMesage .inner {
+
+        max-width: 90%;
+        height: 350px;
+
+        dl {
+            margin-top: 25px;
+        }
+    }
+
+    #contact {
+        height: calc(100% - 100px);
+        
+        overflow-y: auto;
+        .txtBox {
+            right: 10px;
+            p {
+                font-size: 1rem;
+
+                span {
+                    margin-top: 5px;
+                    font-size: 1rem;
+                }
+            }
+        }
+        .contact {
+            .form {
+                .inputList {
+                    li {
+                        label {
+                            font-size: 1.4rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #experience {
+        .inner {
+            dl {
+                dd {
+                    &.ps {
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+
+            .accountBox {
+                &:before {
+                    font-size: 1rem;
+                }
+                font-size: 0.8rem;
+            }
+
+            .btnList {
+                margin-top: 30px;
+                li {
+                    button {
+                        padding: 5px 10px;
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+        }
+    }
+
+    #projectDetailPage {
+        > .inner {
+            .scrollContainer  {
+                .contents {
+
+
+
+                    .utilBox {
+                        .box {
+                            h3 {
+                                font-size: 1.2rem;
+                            }
+
+                            ul {
+                                padding-left: 0;
+                                li {
+                                    button {
+                                        font-size: 1rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    #contentsArea {
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-height : 860px) {
+    #app {   
+        height: 100%;
+        max-height: 90%;
+        // overflow-y: auto;
+    }
+
+    #index {
+        .scrollContents {
+
+            h3 {
+                font-size: 3rem;
+            }
+
+            .list {
+                height: 300px;
+                bottom: -30px;
+
+                > li {
+                    width: 80%;
+                    height: 250px;
+
+                    .imgBox {
+                        img {
+                            width: 200px;
+                            height: 100px;
+                        }
+                    }
+
+                    dl {
+                        dt {
+                            font-size: 2.0rem;
+                        }
+
+                        dd {
+                            font-size: 1.6rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+   
+}
